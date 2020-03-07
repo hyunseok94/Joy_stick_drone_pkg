@@ -1,0 +1,4 @@
+<launch>
+ <node pkg="joy" type="joy_node" name="joystick"/>  
+ <node pkg="joy_stick_drone_pkgs" type="joydrone" name="joydrone" output="screen"/>  
+</launch>
